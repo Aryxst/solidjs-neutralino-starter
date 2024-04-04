@@ -7,10 +7,7 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "serve": "vite serve",
-    "neu:watch": "bun --bun run build --watch",
-    "neu:start": "concurrently \"bun --bun run build --watch\" \"bun --bun run serve\" "
+    "preview": "vite preview"
   },
   "license": "MIT",
   "devDependencies": {

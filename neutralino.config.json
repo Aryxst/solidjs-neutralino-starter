@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/neutralinojs/neutralinojs/main/schemas/neutralino.config.schema.json",
-  "applicationId": "js.aryxst.idk",
+  "applicationId": "js.aryxst.solidjs-neutralino-template",
   "version": "1.0.0",
   "defaultMode": "window",
   "port": 0,
@@ -58,7 +58,7 @@
     }
   },
   "cli": {
-    "binaryName": "aryxst-idk",
+    "binaryName": "test",
     "extensionsPath": "/extensions/",
     "resourcesPath": "/src/",
     "binaryVersion": "5.1.0",
@@ -68,7 +68,7 @@
       "devUrl": "http://localhost:3000",
       "projectPath": "/",
       "initCommand": "bun i",
-      "devCommand": "bun run neu:start",
+      "devCommand": "bun --bun run dev",
       "buildCommand": "bun --bun run build"
     }
   }
