@@ -1,0 +1,29 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite serve",
+    "neu:watch": "bun --bun run build --watch",
+    "neu:start": "concurrently \"bun --bun run build --watch\" \"bun --bun run serve\" "
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "solid-devtools": "^0.29.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11",
+    "vite-plugin-solid": "^2.8.2"
+  },
+  "dependencies": {
+    "@neutralinojs/lib": "^5.1.0",
+    "solid-js": "^1.8.11"
+  }
+}
